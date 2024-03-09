@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    width: 80%;
+    margin: 10px;
+}
+
+#selectedPrice {
+    margin-top: 10px;
+    padding: 5px;
+}
